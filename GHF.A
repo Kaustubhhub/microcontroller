@@ -1,0 +1,5 @@
+ORG 0
+	MOV R0,#20H
+	MOV A,#20H
+	ADD A,@R0
+END
